@@ -1,0 +1,26 @@
+:root{
+    --bgColor: rgb(187,187,187);
+    --navColor: #fff
+}
+
+.bg-nav{ background-color: var(--bgColor); }
+body{ background-color: var(--bgColor); }
+
+.ft-style{
+    font-style: italic;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+.firstview{
+    position: relative;
+    border-width: 2px 3px 0px 1px;
+}
+.firstview > img, .firstview > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/
